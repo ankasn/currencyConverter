@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <header class="header">
+        <p>
+            Kalkulator walut
+        </p>
+    </header>
+
+    <form class="js-form">
+        <fieldset class="fieldset">
+            <legend class="fieldset__legend">
+                Mam złotówki, ile uzyskam waluty
+            </legend>
+            <p> <label>
+                    <span class="fieldset__labelText">złotówki w kwocie:</span>
+                    <input class="fieldset__field js-pln" name="pln" type="number" min="1" step="1" required> zł
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="fieldset__labelText">potrzebuję walutę:
+                    </span>
+                    <select class="fieldset__field js-currency" name="currency">
+                        <option value="eur">euro</option>
+                        <option value="usd">dolar amerykański</option>
+                        <option value="gbt">funt angielski</option>
+                    </select>
+
+                </label>
+            </p>
+            <p>
+                <button class="fieldset__button js-buttonCheck">PRZELICZ</button>
+            </p>
+            <p>
+                moje złotówki wystarczą na walutę w kwocie: <strong class="js-result">???</strong>
+            </p>
+
+        </fieldset>
+
+    </form>
+
+    <footer class="footer">
+        <p>kurs walut z dnia 19.06.2021: 1 USD=4,46zł, 1 EUR=4,68zł, 1 GBT=5,45zł</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+html {
+   box-sizing: border-box;
+}
+*, ::after,::before {box-sizing: inherit;
+}
+
+.body {font-family: "BIZ UDPGothic", sans-serif;
+   background-color: #ebd0a4;
+   max-width: 700px;
+   padding: 10px; 
+   margin: 10px auto;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 10px;
+   line-height: 1.5;
+}
+
+.header {
+   font-size: 20px;
+   font-weight: 700;
+   text-align: left;
+   color: rgb(3, 24, 1);
+   margin-top: 0px;
+} 
+
+.fieldset {
+   background-color: #f5ebdc;
+   margin: 10px auto;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 10px;
+}
+
+.fieldset__legend {
+   color: rgb(58, 39, 4);
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 5px 15px;
+   max-width: 400px;
+}
+
+.fieldset__labelText {
+  width: 200px;
+  display: inline-block;
+}
+
+.fieldset__field {
+   border: 1px solid rgb(73, 49, 5);
+   padding: 5px;
+   width: 100%;
+   max-width: 170px;
+   border-radius: 10px;
+font-size: smaller;
+}
+
+.fieldset__button {
+   color: white;
+   background-color: rgb(90, 61, 8);
+   border: 1px solid rgb(110, 74, 6);
+   width: 100%;
+   padding: 5px;
+   border-radius: 10px;
+}
+
+
+
+
+
+
