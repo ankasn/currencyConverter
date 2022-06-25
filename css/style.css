@@ -5,7 +5,7 @@ html {
 }
 
 .body {font-family: "BIZ UDPGothic", sans-serif;
-   background-color: #ebd0a4;
+   background: url("../images/peachColor.jpg") center;
    max-width: 700px;
    padding: 10px; 
    margin: 10px auto;
@@ -51,7 +51,7 @@ html {
    width: 100%;
    max-width: 170px;
    border-radius: 10px;
-font-size: smaller;
+   font-size: smaller;
 }
 
 .fieldset__button {
@@ -63,7 +63,11 @@ font-size: smaller;
    border-radius: 10px;
 }
 
-
+.footer {
+   font-style: italic;
+   font-size: smaller;
+   text-align: center;
+}
 
 
 
