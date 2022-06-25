@@ -10,23 +10,22 @@ formElement.addEventListener("submit", (event) => {
 
     let pln = plnElement.value;
     let currency = currencyElement.value;
-    let eur = 4.68;
-    let usd = 4.46;
-    let gbt = 5.45;
+    let EUR = 4.68;
+    let USD = 4.46;
+    let GBT = 5.45;
     let result;
 
     switch (currency) {
-        case "eur":
-            result = pln / eur;
+        case "EUR":
+            result = pln / EUR;
             break;
-        case "usd":
-            result = pln / usd;
+        case "USD":
+            result = pln / USD;
             break;
-        case "gbt":
-            result = pln / gbt;
-            break
+        case "GBT":
+            result = pln / GBT;
     }
 
-    resultElement.innerText = result.toFixed(2);
+resultElement.innerText = `${result.toFixed(2)} ${currency}`;
 });
 
