@@ -19,7 +19,6 @@ formElement.addEventListener("submit", (event) => {
         case "eur":
             result = pln / eur;
             break;
-
         case "usd":
             result = pln / usd;
             break;
